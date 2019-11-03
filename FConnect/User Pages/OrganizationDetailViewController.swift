@@ -60,6 +60,8 @@ class OrganizationDetailViewController: UIViewController {
     }
     
     @IBAction func callButtonPressed(_ sender: Any) {
+//        guard let number = URL(string: "tel://" + sponser.contactPerson) else { return }
+//        UIApplication.shared.open(number)
     }
     
     @IBAction func linkButtonPressed(_ sender: Any) {
