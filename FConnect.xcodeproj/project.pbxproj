@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C16EE76236E3D8A0065C5AD /* ForyouCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C16EE75236E3D8A0065C5AD /* ForyouCollectionViewCell.swift */; };
 		5C1FE668236E098300A29860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FE667236E098300A29860 /* AppDelegate.swift */; };
 		5C1FE66A236E098300A29860 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FE669236E098300A29860 /* SceneDelegate.swift */; };
 		5C1FE66C236E098300A29860 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FE66B236E098300A29860 /* ViewController.swift */; };
@@ -15,6 +16,24 @@
 		5C1FE674236E098500A29860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1FE672236E098500A29860 /* LaunchScreen.storyboard */; };
 		5C1FE67F236E098500A29860 /* FConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FE67E236E098500A29860 /* FConnectTests.swift */; };
 		5C1FE68A236E098500A29860 /* FConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FE689236E098500A29860 /* FConnectUITests.swift */; };
+		5C1FE698236E0A1800A29860 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C1FE697236E0A1800A29860 /* GoogleService-Info.plist */; };
+		5C1FE69B236E0BDE00A29860 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FE69A236E0BDE00A29860 /* SigninViewController.swift */; };
+		5C1FE69D236E0BE800A29860 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FE69C236E0BE800A29860 /* SignupViewController.swift */; };
+		5C1FE6A0236E1AE000A29860 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FE69F236E1AE000A29860 /* DashboardViewController.swift */; };
+		5C1FE6A3236E1DA500A29860 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FE6A2236E1DA500A29860 /* UIViewExtensions.swift */; };
+		5C1FE6A5236E1F9900A29860 /* CreateSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FE6A4236E1F9900A29860 /* CreateSpinner.swift */; };
+		5C1FE6A7236E1FC500A29860 /* ShowAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FE6A6236E1FC500A29860 /* ShowAlertController.swift */; };
+		5C49D3C8236E4EBF00F13646 /* QuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C49D3C7236E4EBF00F13646 /* QuestionCollectionViewCell.swift */; };
+		5C49D3CA236E4F2900F13646 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C49D3C9236E4F2900F13646 /* QuestionViewController.swift */; };
+		5C49D3CC236E66D100F13646 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C49D3CB236E66D100F13646 /* ProfileViewController.swift */; };
+		5C49D3CE236E6BDE00F13646 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C49D3CD236E6BDE00F13646 /* SettingViewController.swift */; };
+		5CA83460236E85620052BC5D /* OrganizationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA8345F236E85620052BC5D /* OrganizationDetailViewController.swift */; };
+		5CA83463236F11110052BC5D /* Sponser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA83462236F11110052BC5D /* Sponser.swift */; };
+		5CA83465236F45380052BC5D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA83464236F45380052BC5D /* User.swift */; };
+		5CA83467236F4E750052BC5D /* Userpreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA83466236F4E750052BC5D /* Userpreference.swift */; };
+		6887B0D1CD725D5446C16D55 /* Pods_FConnectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744F32F9A1EA73EBDA5E2A5B /* Pods_FConnectTests.framework */; };
+		C82EDB8296FBA4390D5D0382 /* Pods_FConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE23E1794F1DA81929E1A16 /* Pods_FConnect.framework */; };
+		D2723CB3448C31D6461907DC /* Pods_FConnect_FConnectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2E8418EBBF5A3EA86E8583 /* Pods_FConnect_FConnectUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0405C1107F6E28D89E07F0B5 /* Pods-FConnect-FConnectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FConnect-FConnectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FConnect-FConnectUITests/Pods-FConnect-FConnectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F72ED6611C11751E0FE4B15 /* Pods-FConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FConnect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FConnect/Pods-FConnect.debug.xcconfig"; sourceTree = "<group>"; };
+		11AB11825084803ECB4D5AD6 /* Pods-FConnectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FConnectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FConnectTests/Pods-FConnectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C16EE75236E3D8A0065C5AD /* ForyouCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForyouCollectionViewCell.swift; sourceTree = "<group>"; };
 		5C1FE664236E098300A29860 /* FConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C1FE667236E098300A29860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C1FE669236E098300A29860 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +72,27 @@
 		5C1FE685236E098500A29860 /* FConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C1FE689236E098500A29860 /* FConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FConnectUITests.swift; sourceTree = "<group>"; };
 		5C1FE68B236E098500A29860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1FE697236E0A1800A29860 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5C1FE69A236E0BDE00A29860 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		5C1FE69C236E0BE800A29860 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		5C1FE69F236E1AE000A29860 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		5C1FE6A2236E1DA500A29860 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		5C1FE6A4236E1F9900A29860 /* CreateSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSpinner.swift; sourceTree = "<group>"; };
+		5C1FE6A6236E1FC500A29860 /* ShowAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlertController.swift; sourceTree = "<group>"; };
+		5C49D3C7236E4EBF00F13646 /* QuestionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C49D3C9236E4F2900F13646 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		5C49D3CB236E66D100F13646 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5C49D3CD236E6BDE00F13646 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		5CA8345F236E85620052BC5D /* OrganizationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationDetailViewController.swift; sourceTree = "<group>"; };
+		5CA83462236F11110052BC5D /* Sponser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sponser.swift; sourceTree = "<group>"; };
+		5CA83464236F45380052BC5D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5CA83466236F4E750052BC5D /* Userpreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Userpreference.swift; sourceTree = "<group>"; };
+		744F32F9A1EA73EBDA5E2A5B /* Pods_FConnectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FConnectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2E8418EBBF5A3EA86E8583 /* Pods_FConnect_FConnectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FConnect_FConnectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8503C4E359661F28128C0B7 /* Pods-FConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FConnect.release.xcconfig"; path = "Pods/Target Support Files/Pods-FConnect/Pods-FConnect.release.xcconfig"; sourceTree = "<group>"; };
+		D031334E965F27873033A03A /* Pods-FConnect-FConnectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FConnect-FConnectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FConnect-FConnectUITests/Pods-FConnect-FConnectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D464564E2105BDD73E2BDCDF /* Pods-FConnectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FConnectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FConnectTests/Pods-FConnectTests.release.xcconfig"; sourceTree = "<group>"; };
+		DCE23E1794F1DA81929E1A16 /* Pods_FConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C82EDB8296FBA4390D5D0382 /* Pods_FConnect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6887B0D1CD725D5446C16D55 /* Pods_FConnectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +116,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2723CB3448C31D6461907DC /* Pods_FConnect_FConnectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E89AE4EE6BEA26961FCD987 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F72ED6611C11751E0FE4B15 /* Pods-FConnect.debug.xcconfig */,
+				C8503C4E359661F28128C0B7 /* Pods-FConnect.release.xcconfig */,
+				0405C1107F6E28D89E07F0B5 /* Pods-FConnect-FConnectUITests.debug.xcconfig */,
+				D031334E965F27873033A03A /* Pods-FConnect-FConnectUITests.release.xcconfig */,
+				11AB11825084803ECB4D5AD6 /* Pods-FConnectTests.debug.xcconfig */,
+				D464564E2105BDD73E2BDCDF /* Pods-FConnectTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C16EE74236E3D6E0065C5AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5C16EE75236E3D8A0065C5AD /* ForyouCollectionViewCell.swift */,
+				5C49D3C7236E4EBF00F13646 /* QuestionCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		5C1FE65B236E098300A29860 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +152,8 @@
 				5C1FE67D236E098500A29860 /* FConnectTests */,
 				5C1FE688236E098500A29860 /* FConnectUITests */,
 				5C1FE665236E098300A29860 /* Products */,
+				0E89AE4EE6BEA26961FCD987 /* Pods */,
+				98D2017C26F5CC31F4615765 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +170,11 @@
 		5C1FE666236E098300A29860 /* FConnect */ = {
 			isa = PBXGroup;
 			children = (
+				5CA83461236F11030052BC5D /* Models */,
+				5C16EE74236E3D6E0065C5AD /* Views */,
+				5C1FE6A1236E1D8A00A29860 /* Helpers */,
+				5C1FE69E236E1ABE00A29860 /* User Pages */,
+				5C1FE699236E0BC400A29860 /* Authentication Pages */,
 				5C1FE667236E098300A29860 /* AppDelegate.swift */,
 				5C1FE669236E098300A29860 /* SceneDelegate.swift */,
 				5C1FE66B236E098300A29860 /* ViewController.swift */,
@@ -106,6 +182,7 @@
 				5C1FE670236E098500A29860 /* Assets.xcassets */,
 				5C1FE672236E098500A29860 /* LaunchScreen.storyboard */,
 				5C1FE675236E098500A29860 /* Info.plist */,
+				5C1FE697236E0A1800A29860 /* GoogleService-Info.plist */,
 			);
 			path = FConnect;
 			sourceTree = "<group>";
@@ -128,6 +205,57 @@
 			path = FConnectUITests;
 			sourceTree = "<group>";
 		};
+		5C1FE699236E0BC400A29860 /* Authentication Pages */ = {
+			isa = PBXGroup;
+			children = (
+				5C1FE69A236E0BDE00A29860 /* SigninViewController.swift */,
+				5C1FE69C236E0BE800A29860 /* SignupViewController.swift */,
+			);
+			path = "Authentication Pages";
+			sourceTree = "<group>";
+		};
+		5C1FE69E236E1ABE00A29860 /* User Pages */ = {
+			isa = PBXGroup;
+			children = (
+				5C1FE69F236E1AE000A29860 /* DashboardViewController.swift */,
+				5C49D3C9236E4F2900F13646 /* QuestionViewController.swift */,
+				5C49D3CB236E66D100F13646 /* ProfileViewController.swift */,
+				5C49D3CD236E6BDE00F13646 /* SettingViewController.swift */,
+				5CA8345F236E85620052BC5D /* OrganizationDetailViewController.swift */,
+			);
+			path = "User Pages";
+			sourceTree = "<group>";
+		};
+		5C1FE6A1236E1D8A00A29860 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5C1FE6A2236E1DA500A29860 /* UIViewExtensions.swift */,
+				5C1FE6A4236E1F9900A29860 /* CreateSpinner.swift */,
+				5C1FE6A6236E1FC500A29860 /* ShowAlertController.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5CA83461236F11030052BC5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5CA83462236F11110052BC5D /* Sponser.swift */,
+				5CA83464236F45380052BC5D /* User.swift */,
+				5CA83466236F4E750052BC5D /* Userpreference.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		98D2017C26F5CC31F4615765 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCE23E1794F1DA81929E1A16 /* Pods_FConnect.framework */,
+				9D2E8418EBBF5A3EA86E8583 /* Pods_FConnect_FConnectUITests.framework */,
+				744F32F9A1EA73EBDA5E2A5B /* Pods_FConnectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C1FE68E236E098600A29860 /* Build configuration list for PBXNativeTarget "FConnect" */;
 			buildPhases = (
+				C532DA7834864CD00DE8D8E4 /* [CP] Check Pods Manifest.lock */,
 				5C1FE660236E098300A29860 /* Sources */,
 				5C1FE661236E098300A29860 /* Frameworks */,
 				5C1FE662236E098300A29860 /* Resources */,
+				549E7CB0DBEEA96F370E45F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +282,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C1FE691236E098600A29860 /* Build configuration list for PBXNativeTarget "FConnectTests" */;
 			buildPhases = (
+				5B9CD9C7F260F903A687406B /* [CP] Check Pods Manifest.lock */,
 				5C1FE676236E098500A29860 /* Sources */,
 				5C1FE677236E098500A29860 /* Frameworks */,
 				5C1FE678236E098500A29860 /* Resources */,
@@ -170,9 +301,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C1FE694236E098600A29860 /* Build configuration list for PBXNativeTarget "FConnectUITests" */;
 			buildPhases = (
+				FF562A10BB0A188DEF109297 /* [CP] Check Pods Manifest.lock */,
 				5C1FE681236E098500A29860 /* Sources */,
 				5C1FE682236E098500A29860 /* Frameworks */,
 				5C1FE683236E098500A29860 /* Resources */,
+				DCACB9AC18070B03C1E8B048 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C1FE674236E098500A29860 /* LaunchScreen.storyboard in Resources */,
+				5C1FE698236E0A1800A29860 /* GoogleService-Info.plist in Resources */,
 				5C1FE671236E098500A29860 /* Assets.xcassets in Resources */,
 				5C1FE66F236E098300A29860 /* Main.storyboard in Resources */,
 			);
@@ -254,12 +388,148 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		549E7CB0DBEEA96F370E45F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FConnect/Pods-FConnect-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FConnect/Pods-FConnect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B9CD9C7F260F903A687406B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FConnectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C532DA7834864CD00DE8D8E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FConnect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCACB9AC18070B03C1E8B048 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FConnect-FConnectUITests/Pods-FConnect-FConnectUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FConnect-FConnectUITests/Pods-FConnect-FConnectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF562A10BB0A188DEF109297 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FConnect-FConnectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5C1FE660236E098300A29860 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C1FE69B236E0BDE00A29860 /* SigninViewController.swift in Sources */,
+				5C49D3C8236E4EBF00F13646 /* QuestionCollectionViewCell.swift in Sources */,
+				5CA83463236F11110052BC5D /* Sponser.swift in Sources */,
+				5C49D3CA236E4F2900F13646 /* QuestionViewController.swift in Sources */,
+				5C1FE6A5236E1F9900A29860 /* CreateSpinner.swift in Sources */,
+				5C1FE6A7236E1FC500A29860 /* ShowAlertController.swift in Sources */,
+				5C49D3CE236E6BDE00F13646 /* SettingViewController.swift in Sources */,
+				5CA83465236F45380052BC5D /* User.swift in Sources */,
+				5C1FE6A3236E1DA500A29860 /* UIViewExtensions.swift in Sources */,
+				5CA83467236F4E750052BC5D /* Userpreference.swift in Sources */,
+				5C16EE76236E3D8A0065C5AD /* ForyouCollectionViewCell.swift in Sources */,
+				5CA83460236E85620052BC5D /* OrganizationDetailViewController.swift in Sources */,
+				5C1FE6A0236E1AE000A29860 /* DashboardViewController.swift in Sources */,
 				5C1FE66C236E098300A29860 /* ViewController.swift in Sources */,
+				5C1FE69D236E0BE800A29860 /* SignupViewController.swift in Sources */,
+				5C49D3CC236E66D100F13646 /* ProfileViewController.swift in Sources */,
 				5C1FE668236E098300A29860 /* AppDelegate.swift in Sources */,
 				5C1FE66A236E098300A29860 /* SceneDelegate.swift in Sources */,
 			);
@@ -432,42 +702,47 @@
 		};
 		5C1FE68F236E098600A29860 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F72ED6611C11751E0FE4B15 /* Pods-FConnect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 57W93Y38Q2;
+				DEVELOPMENT_TEAM = RMYW8C3V4Y;
 				INFOPLIST_FILE = FConnect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = KimlengHor.FConnect;
+				PRODUCT_BUNDLE_IDENTIFIER = KimlengHor.FConnectMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5C1FE690236E098600A29860 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8503C4E359661F28128C0B7 /* Pods-FConnect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 57W93Y38Q2;
+				DEVELOPMENT_TEAM = RMYW8C3V4Y;
 				INFOPLIST_FILE = FConnect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = KimlengHor.FConnect;
+				PRODUCT_BUNDLE_IDENTIFIER = KimlengHor.FConnectMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		5C1FE692236E098600A29860 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11AB11825084803ECB4D5AD6 /* Pods-FConnectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +765,7 @@
 		};
 		5C1FE693236E098600A29860 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D464564E2105BDD73E2BDCDF /* Pods-FConnectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +788,7 @@
 		};
 		5C1FE695236E098600A29860 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0405C1107F6E28D89E07F0B5 /* Pods-FConnect-FConnectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +809,7 @@
 		};
 		5C1FE696236E098600A29860 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D031334E965F27873033A03A /* Pods-FConnect-FConnectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
