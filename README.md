@@ -2,8 +2,33 @@
 
 # FConnect+
 
-One Paragraph of project description goes here
+FConnect+ provides one stop shop for reliable resources and information for foster youth ages 17 - 25 years. 
 
+## Key Features
+
+* Personalization
+* Organized Information
+* Engagement
+
+## Target Audience
+
+Our target users are foster youth of ages 17 - 25 years.  Our partners can include non-profit organizations, corporations, and community groups who want to reach out to our target user group.
+
+## User Stories (Minimum Viable Product)
+
+* As a foster youth aging out of foster care, I would like to connect to a "one stop shop" for reliable resources, so that I can view the information in an organized, personalized, localized list.
+
+## Optional Requirements
+
+* Sort list in order of relevance.
+* Companion tool to add or update resources in the database. Can be customized for:
+  **  Admin level support
+  ** Community level engagement
+* Flexibility to display in "Other resources" area:
+  ** Ads
+  ** Succcess stories
+  ** Announcements
+ 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
