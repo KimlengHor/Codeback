@@ -32,6 +32,7 @@ class DashboardViewController: UIViewController, UICollectionViewDelegate, UICol
     var uid = ""
     var currentUser: User!
     var userPreferences = [Userpreference]()
+    var type = "food"
         
     //database
     fileprivate func fetchSponser(completion: @escaping ([Sponser]) -> ()) {
@@ -70,7 +71,6 @@ class DashboardViewController: UIViewController, UICollectionViewDelegate, UICol
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         //fetch from the database
         fetchSponser { (sponsers) in
             self.sponsers = sponsers
@@ -83,6 +83,28 @@ class DashboardViewController: UIViewController, UICollectionViewDelegate, UICol
         getUserPreference(category: "food3")
         
         setupView()
+        
+        scheduleNotification()
+    }
+    
+    func scheduleNotification() {
+        //notification part
+        let center = UNUserNotificationCenter.current()
+        let content = UNMutableNotificationContent()
+        content.title = "Announcement"
+        content.body = "Hey! Second Harvest Food Bank is giving out free food supplies on tomorrow, Monday (11/4) at 201, 4th St, San Jose"
+        content.sound = UNNotificationSound.default
+        content.threadIdentifier = "local-notification-fconnect"
+        
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+        
+        let request = UNNotificationRequest(identifier: "content", content: content, trigger: trigger)
+        
+        center.add(request, withCompletionHandler: {(error) in
+            if let error = error {
+                print(error)
+            }
+        })
     }
     
     func getQuestionAnswers() {
@@ -199,7 +221,7 @@ class DashboardViewController: UIViewController, UICollectionViewDelegate, UICol
         } else {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "foryouCell", for: indexPath) as! ForyouCollectionViewCell
             if userPreferences.count > 0 {
-                cell.setupPrefView(userPreference: userPreferences, index: indexPath.item)
+                cell.setupPrefView(userPreference: userPreferences, index: indexPath.item, type: type)
             }
             return cell
         }
@@ -216,11 +238,26 @@ class DashboardViewController: UIViewController, UICollectionViewDelegate, UICol
             detailVC.userPref = userPreferences[indexPath.item]
             detailVC.isForyou = true
             let cell = foryouCollectionView.cellForItem(at: indexPath) as! ForyouCollectionViewCell
-            detailVC.imageString = cell.images[indexPath.item]
+            
+           
+            
+            switch type {
+            case "food":
+                detailVC.imageString = cell.foodImages[indexPath.item]
+            case "counseling":
+                detailVC.imageString = cell.counselingImages[indexPath.item]
+            case "education":
+                detailVC.imageString = cell.educationImages[indexPath.item]
+            case "home":
+                detailVC.imageString = cell.homeImages[indexPath.item]
+            default:
+                detailVC.imageString = cell.transportationImages[indexPath.item]
+            }
+            
             self.present(detailVC, animated: true, completion: nil)
         } else {
-            detailVC.sponser = sponsers[indexPath.item]
             let cell = otherResourceCollectionView.cellForItem(at: indexPath) as! ForyouCollectionViewCell
+            detailVC.sponser = sponsers[indexPath.item]
             detailVC.imageString = cell.images[indexPath.item]
             self.present(detailVC, animated: true, completion: nil)
         }
@@ -231,6 +268,7 @@ class DashboardViewController: UIViewController, UICollectionViewDelegate, UICol
         resetChoiceTap()
         sender.tintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         userPreferences.removeAll()
+        type = "food"
         getUserPreference(category: "food3")
     }
     
@@ -238,6 +276,7 @@ class DashboardViewController: UIViewController, UICollectionViewDelegate, UICol
         resetChoiceTap()
         sender.tintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         userPreferences.removeAll()
+        type = "home"
         getUserPreference(category: "housing0")
     }
     
@@ -245,6 +284,7 @@ class DashboardViewController: UIViewController, UICollectionViewDelegate, UICol
         resetChoiceTap()
         sender.tintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         userPreferences.removeAll()
+        type = "transportation"
         getUserPreference(category: "transportation2")
     }
     
@@ -252,6 +292,7 @@ class DashboardViewController: UIViewController, UICollectionViewDelegate, UICol
         resetChoiceTap()
         sender.tintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         userPreferences.removeAll()
+        type = "counseling"
         getUserPreference(category: "counseling4")
     }
     
@@ -259,6 +300,7 @@ class DashboardViewController: UIViewController, UICollectionViewDelegate, UICol
         resetChoiceTap()
         sender.tintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         userPreferences.removeAll()
+        type = "education"
         getUserPreference(category: "education1")
     }
     
