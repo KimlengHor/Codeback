@@ -96,7 +96,7 @@ class DashboardViewController: UIViewController, UICollectionViewDelegate, UICol
         content.sound = UNNotificationSound.default
         content.threadIdentifier = "local-notification-fconnect"
         
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 60, repeats: true)
         
         let request = UNNotificationRequest(identifier: "content", content: content, trigger: trigger)
         
