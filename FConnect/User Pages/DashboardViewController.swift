@@ -228,6 +228,9 @@ class DashboardViewController: UIViewController, UICollectionViewDelegate, UICol
     
     //collection
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        if collectionView == foryouCollectionView {
+            return questions.count
+        }
         return 5
     }
     
@@ -329,6 +332,44 @@ class DashboardViewController: UIViewController, UICollectionViewDelegate, UICol
         userPreferences.removeAll()
         type = "education"
         getUserPreference(category: "education1")
+    }
+    
+    fileprivate func saveInfoToFirestore(question: String) {
+        //uid = Auth.auth().currentUser?.uid ?? ""
+        let docData: [String: Any] = [
+            "answer": "",
+            "keywords": [Any](),
+            "question": question
+        ]
+        Firestore.firestore().collection("questions").addDocument(data: docData) { (error) in
+            if let error = error {
+                print("Fail to add to the database ", error)
+                return
+            }
+            
+            self.fetchQuestions { (questions) in
+                self.questions = questions
+                self.foryouCollectionView.reloadData()
+            }
+        }
+    }
+    
+    //var newQuestion: Question?
+    
+    @IBAction func addButtonPressed(_ sender: Any) {
+        let alert = UIAlertController(title: "Question", message: "Type in your question", preferredStyle: .alert)
+
+        
+        alert.addTextField { (textField) in
+            textField.text = ""
+        }
+        alert.addAction(UIAlertAction(title: "Add", style: .default, handler: { [weak alert] (_) in
+            let textField = alert?.textFields![0]
+            //print("Text field: \(textField?.text)")
+            self.saveInfoToFirestore(question: textField!.text!)
+        }))
+        
+        self.present(alert, animated: true, completion: nil)
     }
     
 }
