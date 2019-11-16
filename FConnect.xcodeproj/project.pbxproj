@@ -16,7 +16,6 @@
 		5C1FE674236E098500A29860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1FE672236E098500A29860 /* LaunchScreen.storyboard */; };
 		5C1FE67F236E098500A29860 /* FConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FE67E236E098500A29860 /* FConnectTests.swift */; };
 		5C1FE68A236E098500A29860 /* FConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FE689236E098500A29860 /* FConnectUITests.swift */; };
-		5C1FE698236E0A1800A29860 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C1FE697236E0A1800A29860 /* GoogleService-Info.plist */; };
 		5C1FE69B236E0BDE00A29860 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FE69A236E0BDE00A29860 /* SigninViewController.swift */; };
 		5C1FE69D236E0BE800A29860 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FE69C236E0BE800A29860 /* SignupViewController.swift */; };
 		5C1FE6A0236E1AE000A29860 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1FE69F236E1AE000A29860 /* DashboardViewController.swift */; };
@@ -31,6 +30,15 @@
 		5CA83463236F11110052BC5D /* Sponser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA83462236F11110052BC5D /* Sponser.swift */; };
 		5CA83465236F45380052BC5D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA83464236F45380052BC5D /* User.swift */; };
 		5CA83467236F4E750052BC5D /* Userpreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA83466236F4E750052BC5D /* Userpreference.swift */; };
+		5CB73D1B237F5374006CD587 /* Recruiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB73D1A237F5374006CD587 /* Recruiter.swift */; };
+		5CB73D1D237F6461006CD587 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB73D1C237F6461006CD587 /* Question.swift */; };
+		5CB73D1F237F6967006CD587 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB73D1E237F6967006CD587 /* RecordViewController.swift */; };
+		5CB73D21237F7B62006CD587 /* recording.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5CB73D20237F7B61006CD587 /* recording.m4a */; };
+		5CB73D23237F7C9F006CD587 /* kim.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5CB73D22237F7C9F006CD587 /* kim.mp3 */; };
+		5CB73D25237F7D1B006CD587 /* carry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5CB73D24237F7D1A006CD587 /* carry.mp3 */; };
+		5CB73D27237F8247006CD587 /* cheng.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5CB73D26237F8247006CD587 /* cheng.m4a */; };
+		5CB73D29237F834D006CD587 /* Eunice.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5CB73D28237F834D006CD587 /* Eunice.m4a */; };
+		5CD550B7237F20B3006829B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CD550B6237F20B3006829B2 /* GoogleService-Info.plist */; };
 		6887B0D1CD725D5446C16D55 /* Pods_FConnectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744F32F9A1EA73EBDA5E2A5B /* Pods_FConnectTests.framework */; };
 		C82EDB8296FBA4390D5D0382 /* Pods_FConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE23E1794F1DA81929E1A16 /* Pods_FConnect.framework */; };
 		D2723CB3448C31D6461907DC /* Pods_FConnect_FConnectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2E8418EBBF5A3EA86E8583 /* Pods_FConnect_FConnectUITests.framework */; };
@@ -58,7 +66,7 @@
 		0F72ED6611C11751E0FE4B15 /* Pods-FConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FConnect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FConnect/Pods-FConnect.debug.xcconfig"; sourceTree = "<group>"; };
 		11AB11825084803ECB4D5AD6 /* Pods-FConnectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FConnectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FConnectTests/Pods-FConnectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5C16EE75236E3D8A0065C5AD /* ForyouCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForyouCollectionViewCell.swift; sourceTree = "<group>"; };
-		5C1FE664236E098300A29860 /* FConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1FE664236E098300A29860 /* Callback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Callback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C1FE667236E098300A29860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C1FE669236E098300A29860 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5C1FE66B236E098300A29860 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,7 +80,6 @@
 		5C1FE685236E098500A29860 /* FConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C1FE689236E098500A29860 /* FConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FConnectUITests.swift; sourceTree = "<group>"; };
 		5C1FE68B236E098500A29860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C1FE697236E0A1800A29860 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5C1FE69A236E0BDE00A29860 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		5C1FE69C236E0BE800A29860 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		5C1FE69F236E1AE000A29860 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +94,15 @@
 		5CA83462236F11110052BC5D /* Sponser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sponser.swift; sourceTree = "<group>"; };
 		5CA83464236F45380052BC5D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5CA83466236F4E750052BC5D /* Userpreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Userpreference.swift; sourceTree = "<group>"; };
+		5CB73D1A237F5374006CD587 /* Recruiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recruiter.swift; sourceTree = "<group>"; };
+		5CB73D1C237F6461006CD587 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		5CB73D1E237F6967006CD587 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		5CB73D20237F7B61006CD587 /* recording.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = recording.m4a; path = "KimlengHor.GoogleEdMobiles 2019-11-15 16:18.34.741.xcappdata/AppData/Documents/recording.m4a"; sourceTree = "<group>"; };
+		5CB73D22237F7C9F006CD587 /* kim.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kim.mp3; sourceTree = "<group>"; };
+		5CB73D24237F7D1A006CD587 /* carry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = carry.mp3; sourceTree = "<group>"; };
+		5CB73D26237F8247006CD587 /* cheng.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheng.m4a; sourceTree = "<group>"; };
+		5CB73D28237F834D006CD587 /* Eunice.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Eunice.m4a; sourceTree = "<group>"; };
+		5CD550B6237F20B3006829B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		744F32F9A1EA73EBDA5E2A5B /* Pods_FConnectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FConnectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D2E8418EBBF5A3EA86E8583 /* Pods_FConnect_FConnectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FConnect_FConnectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8503C4E359661F28128C0B7 /* Pods-FConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FConnect.release.xcconfig"; path = "Pods/Target Support Files/Pods-FConnect/Pods-FConnect.release.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +164,11 @@
 		5C1FE65B236E098300A29860 = {
 			isa = PBXGroup;
 			children = (
+				5CB73D20237F7B61006CD587 /* recording.m4a */,
+				5CB73D26237F8247006CD587 /* cheng.m4a */,
+				5CB73D22237F7C9F006CD587 /* kim.mp3 */,
+				5CB73D24237F7D1A006CD587 /* carry.mp3 */,
+				5CB73D28237F834D006CD587 /* Eunice.m4a */,
 				5C1FE666236E098300A29860 /* FConnect */,
 				5C1FE67D236E098500A29860 /* FConnectTests */,
 				5C1FE688236E098500A29860 /* FConnectUITests */,
@@ -160,7 +181,7 @@
 		5C1FE665236E098300A29860 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C1FE664236E098300A29860 /* FConnect.app */,
+				5C1FE664236E098300A29860 /* Callback.app */,
 				5C1FE67A236E098500A29860 /* FConnectTests.xctest */,
 				5C1FE685236E098500A29860 /* FConnectUITests.xctest */,
 			);
@@ -181,8 +202,8 @@
 				5C1FE66D236E098300A29860 /* Main.storyboard */,
 				5C1FE670236E098500A29860 /* Assets.xcassets */,
 				5C1FE672236E098500A29860 /* LaunchScreen.storyboard */,
+				5CD550B6237F20B3006829B2 /* GoogleService-Info.plist */,
 				5C1FE675236E098500A29860 /* Info.plist */,
-				5C1FE697236E0A1800A29860 /* GoogleService-Info.plist */,
 			);
 			path = FConnect;
 			sourceTree = "<group>";
@@ -222,6 +243,7 @@
 				5C49D3CB236E66D100F13646 /* ProfileViewController.swift */,
 				5C49D3CD236E6BDE00F13646 /* SettingViewController.swift */,
 				5CA8345F236E85620052BC5D /* OrganizationDetailViewController.swift */,
+				5CB73D1E237F6967006CD587 /* RecordViewController.swift */,
 			);
 			path = "User Pages";
 			sourceTree = "<group>";
@@ -242,6 +264,8 @@
 				5CA83462236F11110052BC5D /* Sponser.swift */,
 				5CA83464236F45380052BC5D /* User.swift */,
 				5CA83466236F4E750052BC5D /* Userpreference.swift */,
+				5CB73D1A237F5374006CD587 /* Recruiter.swift */,
+				5CB73D1C237F6461006CD587 /* Question.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -275,7 +299,7 @@
 			);
 			name = FConnect;
 			productName = FConnect;
-			productReference = 5C1FE664236E098300A29860 /* FConnect.app */;
+			productReference = 5C1FE664236E098300A29860 /* Callback.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5C1FE679236E098500A29860 /* FConnectTests */ = {
@@ -365,9 +389,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CB73D29237F834D006CD587 /* Eunice.m4a in Resources */,
+				5CB73D23237F7C9F006CD587 /* kim.mp3 in Resources */,
 				5C1FE674236E098500A29860 /* LaunchScreen.storyboard in Resources */,
-				5C1FE698236E0A1800A29860 /* GoogleService-Info.plist in Resources */,
+				5CD550B7237F20B3006829B2 /* GoogleService-Info.plist in Resources */,
+				5CB73D21237F7B62006CD587 /* recording.m4a in Resources */,
+				5CB73D25237F7D1B006CD587 /* carry.mp3 in Resources */,
 				5C1FE671236E098500A29860 /* Assets.xcassets in Resources */,
+				5CB73D27237F8247006CD587 /* cheng.m4a in Resources */,
 				5C1FE66F236E098300A29860 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,8 +546,11 @@
 				5C1FE69B236E0BDE00A29860 /* SigninViewController.swift in Sources */,
 				5C49D3C8236E4EBF00F13646 /* QuestionCollectionViewCell.swift in Sources */,
 				5CA83463236F11110052BC5D /* Sponser.swift in Sources */,
+				5CB73D1F237F6967006CD587 /* RecordViewController.swift in Sources */,
 				5C49D3CA236E4F2900F13646 /* QuestionViewController.swift in Sources */,
 				5C1FE6A5236E1F9900A29860 /* CreateSpinner.swift in Sources */,
+				5CB73D1D237F6461006CD587 /* Question.swift in Sources */,
+				5CB73D1B237F5374006CD587 /* Recruiter.swift in Sources */,
 				5C1FE6A7236E1FC500A29860 /* ShowAlertController.swift in Sources */,
 				5C49D3CE236E6BDE00F13646 /* SettingViewController.swift in Sources */,
 				5CA83465236F45380052BC5D /* User.swift in Sources */,
@@ -706,15 +738,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 89BV38HZUZ;
+				DEVELOPMENT_TEAM = 57W93Y38Q2;
 				INFOPLIST_FILE = FConnect/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = KimlengHor.FConnectMobileApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = KimlengHor.GoogleEdMobiles;
+				PRODUCT_NAME = Callback;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -726,15 +758,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 89BV38HZUZ;
+				DEVELOPMENT_TEAM = 57W93Y38Q2;
 				INFOPLIST_FILE = FConnect/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = KimlengHor.FConnectMobileApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = KimlengHor.GoogleEdMobiles;
+				PRODUCT_NAME = Callback;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

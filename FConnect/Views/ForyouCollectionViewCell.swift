@@ -18,7 +18,7 @@ class ForyouCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var cardView: UIView!
     
     //Variables
-    let images = ["resource1", "resource2", "resource3", "resource4", "resource5"]
+    let images = ["microsoft", "pawsh", "apple", "google", "tesla"]
     let counselingImages = ["couns1", "couns2", "couns3", "couns4", "couns5"]
     let educationImages = ["edu1", "edu2", "edu3", "edu4", "edu5"]
     let foodImages = ["food1", "food2", "food3", "food4", "food5"]
@@ -33,8 +33,12 @@ class ForyouCollectionViewCell: UICollectionViewCell {
         percentageLabel.clipsToBounds = true
     }
     
-    func setupSponserView(sponsers: [Sponser], index: Int) {
-        organizationNameLabel.text = sponsers[index].titleSponsor
+    func setupView(questions: [Question], index: Int) {
+        organizationNameLabel.text = questions[index].question
+    }
+    
+    func setupRecruiterView(recruiters: [Recruiter], index: Int) {
+        organizationNameLabel.text = recruiters[index].name
         organizationImageView.image = UIImage(named: images[index])
     }
     

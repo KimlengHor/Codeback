@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:FConnect.xcodeproj">
+      location = "group:/Users/horkimleng1/Desktop/iOS 2019/GoogleEd/FConnect.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

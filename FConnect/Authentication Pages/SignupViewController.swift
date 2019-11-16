@@ -19,6 +19,7 @@ class SignupViewController: UIViewController {
     @IBOutlet weak var signupCardView: UIView!
     @IBOutlet weak var firstnameTextField: UITextField!
     @IBOutlet weak var lastnameTextField: UITextField!
+    @IBOutlet weak var universityTextField: UITextField!
     
     //Variables
     var uid = ""
@@ -48,6 +49,7 @@ class SignupViewController: UIViewController {
         passwordTextField.setupTheBottomBorder()
         firstnameTextField.setupTheBottomBorder()
         lastnameTextField.setupTheBottomBorder()
+        universityTextField.setupTheBottomBorder()
     }
     
     func setupNotificationObservers() {
